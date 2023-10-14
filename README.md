@@ -1,1 +1,1 @@
-# url-shortner-discord-bot
+# URL Shortner Discord Bot
