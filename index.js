@@ -29,7 +29,7 @@ client.on('interactionCreate', async (interaction) => {
                     interaction.reply(res.data.error)
                 }
                 if (shortenedURL != undefined || shortenedURL != null) {
-                    interaction.reply(`Shortned URL: http://localhost:8000/url/${shortenedURL}`)
+                    interaction.reply(`Shortned URL: ${SHORT_URL_GENERATOR_API_URL / shortenedURL}`)
                 }
             } catch (err) {
                 console.log(err)
